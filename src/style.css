@@ -6,7 +6,8 @@
   --color-fontground: var(--clr-texte);
   --font-spacegrotesk: var(--font-sans);
   --color-texte: var(--clr-white);
-  --color-border: var(--clr-green)
+  --color-border: var(--clr-green);
+  --color-subtext: var(--clr-gray-400)
 }
 
 @layer base {
@@ -29,7 +30,7 @@
     --font-sans: "Space Grotesk", sans-serif;
 
     /* Sémantique Tokens */
-    --clr-background: var(--clr-gray-800);
+    --clr-background: var(--clr-gray-900);
     --clr-texte: var(--clr-white);
     --clr-green: var(--clr-green-300)
 
