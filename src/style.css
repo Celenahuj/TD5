@@ -22,10 +22,10 @@
     --clr-green: oklch(87.1% 0.15 154.449);
     --clr-green-300: oklch(79.2% 0.209 151.711);
 
-    --svg-github: url("/src/Icons/icon-github.svg");
+    /* --svg-github: url("/src/Icons/icon-github.svg");
     --svg-linkedin: url("/src/Icons/icon-linkedin.svg");
     --svg-twitter: url("/src/Icons/icon-twitter.svg");
-    --svg-fronted: url("/src/Icons/icon-frontend-mentor.svg");
+    --svg-fronted: url("/src/Icons/icon-frontend-mentor.svg"); */
     --font-sans: "Space Grotesk", sans-serif;
 
     /* Sémantique Tokens */
