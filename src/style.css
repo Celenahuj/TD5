@@ -2,10 +2,11 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-bg: var(--clr-gray-900);
-  --color-fg: var(--clr-white);
+  --color-background: var(--clr-background);
+  --color-fontground: var(--clr-texte);
   --font-spacegrotesk: var(--font-sans);
-  --color-green-300: var(--clr-green-300);
+  --color-texte: var(--clr-white);
+  --color-border: var(--clr-green)
 }
 
 @layer base {
@@ -26,11 +27,16 @@
     --svg-twitter: url("/src/Icons/icon-twitter.svg");
     --svg-fronted: url("/src/Icons/icon-frontend-mentor.svg");
     --font-sans: "Space Grotesk", sans-serif;
+
+    /* Sémantique Tokens */
+    --clr-background: var(--clr-gray-800);
+    --clr-texte: var(--clr-white);
+    --clr-green: var(--clr-green-300)
+
   }
 
-  @utility pattern {
-    @apply afterz-0 after:absolute after:inset-0 after:z-10 after:bg-red-500 after:content-[''];
-  }
+
+
   /* .dark {
   } */
 }

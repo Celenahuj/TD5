@@ -1,13 +1,16 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/src/style.css" rel="stylesheet" />
-  </head>
-  <body class="bg-bg grid min-h-screen place-items-center p-4">
-    <div class="flex flex-col items-center gap-y-15">
-      <h2 class="text-fg font-family text-3xl font-bold">adamkeyse</h2>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="/src/style.css" rel="stylesheet" />
+</head>
+
+<body class="bg-background grid min-h-screen place-items-center p-4">
+  <header class="grid grid-col-1 grid-rows-1 gap-4">
+    <section class="row-start-1 col-start-1 grid-rows-1 gap-4 flex flex-col items-center">
+      <h2 class="text-fontground font-family text-3xl font-bold">adamkeyse</h2>
       <ul class="flex space-x-9">
         <li class="">
           <img src="/src/Icons/icon-github.svg" alt="github" />
@@ -22,15 +25,48 @@
           <img src="/src/Icons/icon-twitter.svg" alt="twitter" />
         </li>
       </ul>
+    </section>
+    <section class="-translate-y-40 flex flex-col items-center">
       <img src="/src/Profile/image-profile-mobile.webp" alt="image_profile" />
-    </div>
-    <p class="text-fg font-family px-30 pt-8 text-center text-3xl font-bold">
-      Nice to meet you! I'm Adam Keyes.
-    </p>
-    <hr class="w-30 border-t-4 border-green-300" />
-    <p class="text-fg font-family px-30 pt-6 text-center text-lg font-normal">
-      Based in the UK, I'ma front-end developer passionate about building
-      accessible web apps that users love.
-    </p>
-  </body>
+      <p class="text-fontground font-family px-30 pt-8 text-center text-3xl font-bold">
+        Nice to meet you! I'm Adam Keyes.
+      </p>
+      <hr class="w-30 border-b-2 pt-6 border-b-border border-t-0" />
+      <p class="text-fontground font-family px-30 pt-6 text-center text-lg font-normal">
+        Based in the UK, I'ma front-end developer passionate about building
+        accessible web apps that users love.
+      </p>
+      <button class="text-border text-center text-2xl uppercase pt-6 border-b-1 border-b-border">CONTACT ME</button>
+    </section>
+  </header>
+  <main>
+    <ul class="flex text-center flex-col items-center text-texte">
+      <li>
+        <h1>HTML</h1>
+        <p>4 Years Experience</p>
+      </li>
+      <li>
+        <h1>JAVASCRIPT</h1>
+        <p>4 Years Experience</p>
+      </li>
+      <li>
+        <h1>ACCESSIBILY</h1>
+        <p>4 Years Experience</p>
+      </li>
+      <li>
+        <h1>TAILWINDCSS</h1>
+        <p>4 Years Experience</p>
+      </li>
+      <li>
+        <h1>CSS</h1>
+        <p>4 Years Experience</p>
+      </li>
+      <li>
+        <h1>SASS</h1>
+        <p>4 Years Experience</p>
+      </li>
+    </ul>
+  </main>
+</body>
+
 </html>
