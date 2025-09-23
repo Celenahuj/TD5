@@ -7,7 +7,8 @@
   --font-spacegrotesk: var(--font-sans);
   --color-texte: var(--clr-white);
   --color-border: var(--clr-green);
-  --color-subtext: var(--clr-gray-400)
+  --color-subtext: var(--clr-gray-400);
+  --color-footer: var(--clr-footer)
 }
 
 @layer base {
@@ -30,9 +31,11 @@
     --font-sans: "Space Grotesk", sans-serif;
 
     /* Sémantique Tokens */
+    --clr-subtexte:var(--clr-gray-400);
     --clr-background: var(--clr-gray-900);
     --clr-texte: var(--clr-white);
-    --clr-green: var(--clr-green-300)
+    --clr-green: var(--clr-green-300);
+    --clr-footer: var(--clr-gray-800);
 
   }
 
